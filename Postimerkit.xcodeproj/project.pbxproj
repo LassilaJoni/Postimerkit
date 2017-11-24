@@ -12,6 +12,8 @@
 		3529CBF11FC811B300DA608B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3529CBEF1FC811B300DA608B /* Main.storyboard */; };
 		3529CBF31FC811B300DA608B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3529CBF21FC811B300DA608B /* Assets.xcassets */; };
 		3529CBF61FC811B300DA608B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3529CBF41FC811B300DA608B /* LaunchScreen.storyboard */; };
+		3529CBFE1FC811C600DA608B /* stamps.json in Resources */ = {isa = PBXBuildFile; fileRef = 3529CBFD1FC811C600DA608B /* stamps.json */; };
+		3529CC001FC8145000DA608B /* Stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3529CBFF1FC8145000DA608B /* Stamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3529CBF21FC811B300DA608B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3529CBF51FC811B300DA608B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3529CBF71FC811B300DA608B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3529CBFD1FC811C600DA608B /* stamps.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stamps.json; sourceTree = "<group>"; };
+		3529CBFF1FC8145000DA608B /* Stamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				3529CBEB1FC811B300DA608B /* AppDelegate.swift */,
 				3529CBED1FC811B300DA608B /* ViewController.swift */,
+				3529CBFF1FC8145000DA608B /* Stamp.swift */,
 				3529CBEF1FC811B300DA608B /* Main.storyboard */,
 				3529CBF21FC811B300DA608B /* Assets.xcassets */,
 				3529CBF41FC811B300DA608B /* LaunchScreen.storyboard */,
 				3529CBF71FC811B300DA608B /* Info.plist */,
+				3529CBFD1FC811C600DA608B /* stamps.json */,
 			);
 			path = Postimerkit;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3529CBFE1FC811C600DA608B /* stamps.json in Resources */,
 				3529CBF61FC811B300DA608B /* LaunchScreen.storyboard in Resources */,
 				3529CBF31FC811B300DA608B /* Assets.xcassets in Resources */,
 				3529CBF11FC811B300DA608B /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			files = (
 				3529CBEE1FC811B300DA608B /* ViewController.swift in Sources */,
 				3529CBEC1FC811B300DA608B /* AppDelegate.swift in Sources */,
+				3529CC001FC8145000DA608B /* Stamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
