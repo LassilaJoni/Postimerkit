@@ -34,7 +34,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         cell.textLabel?.text = stamp.name
         cell.detailTextLabel?.text = stamp.artist
-        cell.imageView?.image = UIImage(named: (stamp.name?.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed))!)
+        let nameEscaped = (stamp.name?.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed))! + ".jpg"
+        cell.imageView?.image = UIImage(named: (nameEscaped))
         
         return cell
     }
